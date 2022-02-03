@@ -1,0 +1,30 @@
+ul {
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+h3 {
+    color: #333;
+    font-size: 24px;
+    background-color: rgb(217 186 186);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.item-container {
+    padding: 0;
+}
+
+.search {
+    color: #333333;
+    border-radius: 5px;
+    border: 2px solid #a9a9a9;
+    display: block;
+    font-size: 22px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+

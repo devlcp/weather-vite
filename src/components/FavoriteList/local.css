@@ -1,0 +1,52 @@
+.favorite-title {    
+    color: white;
+    margin-top: 50px;
+    padding: 10px 0;
+    border-radius: 3px;
+    background-color: rgb(255 155 155);
+    box-shadow: 0 0 20px rgb(204 122 122);
+}
+
+.search input {
+    color: #444;
+    width: 100%;
+    border: 3px solid rgb(255 155 155);
+    border-radius: 10px;
+    height: 35px;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    outline: none;
+    display: inherit;
+}
+
+.favorite-list {
+    padding: 0;
+}
+
+.favorite-list li {
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.favorite-list button, .favorite-list span, .favorite-list strong {
+    padding: 10px;
+    color: #333;
+    outline: none; 
+}
+
+.favorite-list li button:hover {
+    background-color: tomato;
+}
+
+.favorite-list li button:hover > svg {
+    color: #fff;
+}
+
+.favorite-list li button svg {
+    color: tomato;
+}
+

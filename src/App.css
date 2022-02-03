@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title-app {
+  color: #f7ffff;
+  text-align: center;
+  padding: 30px;
+  font-size: 4em;
+}
+
+#root {
+    width: 100%;
+}
+
+.App {
+  display: flex;
+  background-image: linear-gradient( 90.2deg,  rgba(245,134,134,1) 0.3%, rgba(234,82,150,1) 46.6%, rgba(177,89,224,1) 90.2% );
+  min-height: 100vh;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+header {  
+  margin: 0 auto;
+}

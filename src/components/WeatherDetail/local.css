@@ -1,0 +1,53 @@
+.item {
+    display: grid;
+    background-color: #dedede;
+    grid-template-columns: 10% 20% 30% 30% 10%;
+    box-shadow: 0 0 40px #676767;
+    border-radius: 10px;
+    width: 100%;
+    color: rgb(76 76 76);
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.item img {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.item > img, span, button {
+    align-items: center;
+    border: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.item button:hover {
+    background-color: crimson;
+    transition: 1s;
+}
+
+.item p {
+    text-align: center;
+    display: block;
+}
+
+.item > p, span, strong {
+    padding: auto 0;
+    margin: auto 0;
+}
+
+.true-x {
+    background-color: rgb(80 99 101);
+}
+
+.true-x svg {
+    color: #fff;
+}
+
+button svg {
+    font-size: 28px;
+    color: #cdb432;
+}
